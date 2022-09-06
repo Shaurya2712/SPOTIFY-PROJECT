@@ -1,11 +1,12 @@
 import "./navbar.css";
+import React from "react";
 
 function navbar() {
   return (
     <>
       <h1>hello there</h1>
       <div>
-        <btn className="btn btn-success">search</btn>
+        <button className="btn btn-success">search</button>
       </div>
     </>
   );
