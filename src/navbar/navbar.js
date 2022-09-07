@@ -1,14 +1,9 @@
-import "./navbar.css";
+import React from "react";
 
-function navbar() {
+export default function navbar() {
   return (
-    <>
-      <h1>hello there</h1>
-      <div>
-        <btn className="btn btn-success">search</btn>
-      </div>
-    </>
+    <div>
+      <h1>helllo</h1>
+    </div>
   );
 }
-
-export default navbar;
